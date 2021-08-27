@@ -1,9 +1,13 @@
 /* add home page styles here */
 * {
-    border: 1px solid black;
-    padding: 0;
-    margin: 0;
+    /* border: 1px solid black; */
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
+}
+body {
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 html, body {
@@ -18,9 +22,7 @@ header {
 
 main {
     display: grid;
-    grid-template-rows: 1fr 10fr 2fr;
-    margin-right: 10%;
-    margin-left: 10%;
+    grid-template-rows: 1fr 10fr 2fr 1.3fr;
 }
 
 #main-heading {
@@ -50,5 +52,45 @@ main {
 }
 
 #about-me-section {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 8fr 2fr;
+    width: 100%;
 }
+
+#about-me-pic {
+    display: flex;
+    align-items: center;
+}
+
+#about-me-pic > img {
+    width: 80%;
+    height: auto;
+}
+
+#about-me-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 1.3em;
+}
+
+#about-me-text > p {
+    color: slategray;
+
+}
+
+#about-me-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#about-me-button > button {
+    height: 50%;
+    width: 80%;
+    color: white;
+    border: none;
+    background-color: rgb(236, 134, 99);
+    cursor: pointer;
+}
+
