@@ -85,6 +85,7 @@ input {
     font-size: 1.3em;
 }
 
+
 #about-me-text > p {
     color: slategray;
 
@@ -109,9 +110,6 @@ input {
     display: flex;    
 }
 
-.logo{
-    margin-left: 120px; 
-}
 
 .icon{
    float: left;
@@ -127,6 +125,7 @@ input {
  border-top-color: gray;
  border-top-style: groove;
  border-top-width: 10px;
+ margin-top: 10px;
 }   
 
 
