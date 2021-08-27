@@ -1,6 +1,5 @@
 /* add home page styles here */
 * {
-    /* border: 1px solid black; */
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -69,7 +68,7 @@ main {
 
 #about-me-text {
     display: flex;
-    flex-direction: column;
+   flex-direction: column;
     justify-content: space-evenly;
     font-size: 1.3em;
 }
@@ -93,4 +92,30 @@ main {
     background-color: rgb(236, 134, 99);
     cursor: pointer;
 }
+
+#left-side-nav {
+    display: flex;    
+}
+
+.logo{
+    margin-left: 120px; 
+}
+
+.icon{
+   float: left;
+    margin-top: 10px;
+}
+
+.icon:nth-child(7) {
+    margin-left: 10px;
+}
+
+.hr{
+ border: none;
+ border-top-color: gray;
+ border-top-style: groove;
+ border-top-width: 10px;
+}   
+
+
 
