@@ -1,6 +1,6 @@
 /* add home page styles here */
 * {
-    border: 1px solid black;
+    
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -51,4 +51,31 @@ main {
 
 #about-me-section {
     display: flex;
+}
+#left-side-nav {
+    display: flex;
+    
+    
+}
+.logo{
+    margin-left: 120px; 
+
+
+}
+.icon{
+   float: left;
+    margin-top: 10px;
+    
+
+}
+.icon:nth-child(7) {
+    
+    margin-left: 10px;
+}
+.hr{
+ border: none;
+ border-top-color: gray;
+ border-top-style: groove;
+ border-top-width: 10px;
+
 }
